@@ -1,8 +1,8 @@
-import Logo from './Logo'
 import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import './index.scss'
+
 import Sidebar from '../Sidebar'
 import Layout from '../Layout'
 import AnimatedLetters from '../AnimatedLetters'
@@ -68,7 +68,6 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
       <Loader type="pacman" />
     </>
