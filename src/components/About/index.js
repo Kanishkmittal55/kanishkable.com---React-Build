@@ -1,4 +1,4 @@
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faDocker, faGitAlt, faGolang, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
@@ -29,22 +29,30 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I 'm very ambitious front end developer looking for a role in established IT company , with the opportunity to work
-                    with the latest technologies on challenging and diverse projects.
+                    In bits and bytes, my dreams are spun,<br />
+                    A systems engineer, second to none.<br />
+                    From concept to code, my creativity flows,<br />
+                    Through Raspberry Pi’s and web apps it shows.<br />
                 </p>
                 <p>
-                    I 'm quietly confident, naturally curious, and perpetually working on improving my chops one design at a time.
+                    In challenges, a chance, in problems, a plea,<br />
+                    To weave DevOps and data, a dance by me.<br />
+                    A gamified journey on DailyPay's stage,<br />
+                    Crafting AR realms, the new digital age.<br />
                 </p>
-                <p>Work has A way of doing itself....!!!</p>
+                <p> 
+                    Check my journey, in links that you click,<br />
+                    A tale of tech, unfolded, dynamic and quick.<br />
+                </p>
             </div>
 
             <div className='stage-cube-cont'>
             <div className='cubespinner'>
                 <div className='face1'>
-                    <FontAwesomeIcon icon ={faAngular} color="#DD0031" />
+                    <FontAwesomeIcon icon ={faGolang} color="#DD0031" />
                 </div>
                 <div className='face2'>
-                    <FontAwesomeIcon icon ={faHtml5} color="#F06529" />
+                    <FontAwesomeIcon icon ={faDocker} color="#F06529" />
                 </div>
                 <div className='face3'>
                     <FontAwesomeIcon icon ={faCss3} color="#28A4D9" />
